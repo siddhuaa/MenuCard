@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taste Haven Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Restaurant Logo">
+    <h1>Taste Haven</h1>
+  </header>
+
+  <nav>
+    <a href="#starters">Starters</a>
+    <a href="#main-course">Main Course</a>
+    <a href="#desserts">Desserts</a>
+  </nav>
+
+<main>
+   <!-- Special of the Day Section -->
+<section class="special" aria-label="Special of the Day">
+  <h2>🌟 Special of the Day</h2>
+
+  <div class="menu-grid">
+    <a href="#special-salmon" class="dish-card">
+      <img src="https://www.themealdb.com/images/media/meals/1548772327.jpg" alt="Grilled Salmon with Lemon Butter Sauce">
+      <div class="dish-info">
+        <strong>Grilled Salmon with Lemon Butter Sauce</strong>
+        <p>A chef's special served with garlic bread and fresh salad.</p>
+        <p><strong>₹499</strong></p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- Popup: Special of the Day -->
+<div id="special-salmon" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/1548772327.jpg" alt="Grilled Salmon with Lemon Butter Sauce">
+    <h3>Grilled Salmon with Lemon Butter Sauce</h3>
+    <p>Succulent salmon fillet grilled to perfection, topped with rich lemon butter sauce, and served with garlic bread and a side of fresh salad.</p>
+    <p><strong>Price:</strong> ₹499</p>
+  </div>
+</div>
+
+
+<!--Starters Contents-->
+    <section id="starters">
+      <h2>Starters</h2>
+      <div class="menu-grid">
+
+  <!-- Dish 1: Paneer Tikka -->
+  <a href="#paneer" class="dish-card">
+    <img src="https://www.themealdb.com/images/media/meals/vptwyt1511450962.jpg" alt="Paneer Tikka">
+    <div class="dish-info">
+      <strong>Paneer Tikka</strong>
+      <p>Grilled paneer cubes marinated with spices.</p>
+    </div>
+  </a>
+
+  <!-- Dish 2: Chicken Wings -->
+  <a href="#chickenwings" class="dish-card">
+    <img src="https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg" alt="Chicken Wings">
+    <div class="dish-info">
+      <strong>Chicken Wings</strong>
+      <p>Crispy fried wings tossed in spicy sauce.</p>
+    </div>
+  </a>
+
+  <!-- Dish 3: Fish Fingers -->
+  <a href="#fishfingers" class="dish-card">
+    <img src="https://www.themealdb.com/images/media/meals/58oia61564916529.jpg" alt="Fish Fingers">
+    <div class="dish-info">
+      <strong>Fish Fingers</strong>
+      <p>Golden-fried fish sticks served with tartar dip.</p>
+    </div>
+  </a>
+
+  <!-- Dish 4: Chicken Seekh Kebab -->
+  <a href="#seekhkebab" class="dish-card">
+    <img src="https://www.themealdb.com/images/media/meals/4pqimk1693058029.jpg" alt="Chicken Seekh Kebab">
+    <div class="dish-info">
+      <strong>Chicken Seekh Kebab</strong>
+      <p>Spiced minced chicken skewers grilled to perfection.</p>
+    </div>
+  </a>
+
+  <!-- Dish 5: Prawn Tempura -->
+  <a href="#prawntempura" class="dish-card">
+    <img src="https://www.themealdb.com/images/media/meals/vvtvtr1511180578.jpg" alt="Prawn Tempura">
+    <div class="dish-info">
+      <strong>Prawn Tempura</strong>
+      <p>Crispy battered prawns with dipping sauce.</p>
+    </div>
+  </a>
+
+  <!-- Dish 6: Chicken Tikka -->
+  <a href="#chickentikka" class="dish-card">
+    <img src="https://www.themealdb.com/images/media/meals/uuyrrx1487327597.jpg" alt="Chicken Tikka">
+    <div class="dish-info">
+      <strong>Chicken Tikka</strong>
+      <p>Juicy chicken pieces marinated with Indian spices.</p>
+    </div>
+  </a>
+
+</div>
+
+<!-- ------------------ POPUPS ------------------ -->
+
+<!-- Popup: Paneer -->
+<div id="paneer" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/vptwyt1511450962.jpg" alt="Paneer Tikka">
+    <h3>Paneer Tikka</h3>
+    <p>Grilled paneer cubes marinated with rich Indian spices and cooked in a clay oven. Served with mint chutney.</p>
+    <p><strong>Price:</strong> ₹249</p>
+  </div>
+</div>
+
+<!-- Popup: Chicken Wings -->
+<div id="chickenwings" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/wyxwsp1486979827.jpg" alt="Chicken Wings">
+    <h3>Chicken Wings</h3>
+    <p>Crispy fried chicken wings tossed in a tangy, spicy sauce, served hot with garlic mayo dip.</p>
+    <p><strong>Price:</strong> ₹199</p>
+  </div>
+</div>
+
+<!-- Popup: Fish Fingers -->
+<div id="fishfingers" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/58oia61564916529.jpg" alt="Fish Fingers">
+    <h3>Fish Fingers</h3>
+    <p>Delicious golden-fried fish sticks coated with crispy breadcrumbs and served with tangy tartar sauce.</p>
+    <p><strong>Price:</strong> ₹229</p>
+  </div>
+</div>
+
+<!-- Popup: Chicken Seekh Kebab -->
+<div id="seekhkebab" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/4pqimk1693058029.jpg" alt="Chicken Seekh Kebab">
+    <h3>Chicken Seekh Kebab</h3>
+    <p>Juicy minced chicken mixed with Indian herbs and spices, molded onto skewers, and grilled over charcoal.</p>
+    <p><strong>Price:</strong> ₹249</p>
+  </div>
+</div>
+
+<!-- Popup: Prawn Tempura -->
+<div id="prawntempura" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/vvtvtr1511180578.jpg" alt="Prawn Tempura">
+    <h3>Prawn Tempura</h3>
+    <p>Fresh prawns coated in light tempura batter, deep-fried to golden perfection and served with soy dipping sauce.</p>
+    <p><strong>Price:</strong> ₹279</p>
+  </div>
+</div>
+
+<!-- Popup: Chicken Tikka -->
+<div id="chickentikka" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/uuyrrx1487327597.jpg" alt="Chicken Tikka">
+    <h3>Chicken Tikka</h3>
+    <p>Tender chicken chunks marinated overnight in spiced yogurt and grilled in a tandoor for a smoky flavor.</p>
+    <p><strong>Price:</strong> ₹239</p>
+  </div>
+</div>
+   
+</section>
+
+<!--Main Course content-->
+    <section id="main-course">
+      <h2>Main Course</h2>
+      <!-- Menu Grid -->
+<div class="menu-grid">
+
+  <!-- Mutton Rogan Josh -->
+  <a href="#mutton" class="dish-card">
+    <img src="https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg" alt="Mutton Rogan Josh">
+    <div class="dish-info">
+      <strong>Mutton Rogan Josh</strong>
+      <p>Aromatic Kashmiri curry with tender mutton pieces.</p>
+    </div>
+  </a>
+
+  <!-- Veg Biryani -->
+  <a href="#vegbiryani" class="dish-card">
+    <img src="https://www.themealdb.com/images/media/meals/1529443236.jpg" alt="Veg Biryani">
+    <div class="dish-info">
+      <strong>Veg Biryani</strong>
+      <p>Fragrant rice cooked with seasonal vegetables & spices.</p>
+    </div>
+  </a>
+
+  <!-- Chicken Curry -->
+  <a href="#chickencurry" class="dish-card">
+    <img src="https://www.themealdb.com/images/media/meals/1529444113.jpg" alt="Chicken Curry">
+    <div class="dish-info">
+      <strong>Chicken Curry</strong>
+      <p>Classic Indian curry with a rich tomato gravy.</p>
+    </div>
+  </a>
+
+  <!-- Dal Tadka -->
+  <a href="#daltadka" class="dish-card">
+    <img src="https://www.themealdb.com/images/media/meals/xr0n4h1598873473.jpg" alt="Dal Tadka">
+    <div class="dish-info">
+      <strong>Dal Tadka</strong>
+      <p>Yellow lentils tempered with ghee, garlic & spices.</p>
+    </div>
+  </a>
+
+  <!-- Fish Curry -->
+  <a href="#fishcurry" class="dish-card">
+    <img src="https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg" alt="Fish Curry">
+    <div class="dish-info">
+      <strong>Fish Curry</strong>
+      <p>Fresh fish simmered in tangy coconut curry.</p>
+    </div>
+  </a>
+
+</div>
+
+<!-- Popups -->
+
+<!-- Popup: Mutton Rogan Josh -->
+<div id="mutton" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/wuxrtu1483564410.jpg" alt="Mutton Rogan Josh">
+    <h3>Mutton Rogan Josh</h3>
+    <p>Aromatic Kashmiri curry slow-cooked with tender mutton pieces, flavored with saffron and traditional Indian spices.</p>
+    <p><strong>Price:</strong> ₹349</p>
+  </div>
+</div>
+
+<!-- Popup: Veg Biryani -->
+<div id="vegbiryani" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/1529443236.jpg" alt="Veg Biryani">
+    <h3>Veg Biryani</h3>
+    <p>Fragrant basmati rice cooked with seasonal vegetables, aromatic spices, and garnished with fried onions.</p>
+    <p><strong>Price:</strong> ₹299</p>
+  </div>
+</div>
+
+<!-- Popup: Chicken Curry -->
+<div id="chickencurry" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/1529444113.jpg" alt="Chicken Curry">
+    <h3>Chicken Curry</h3>
+    <p>Classic Indian chicken curry with a rich tomato-based gravy, blended with fresh herbs and spices.</p>
+    <p><strong>Price:</strong> ₹319</p>
+  </div>
+</div>
+
+<!-- Popup: Dal Tadka -->
+<div id="daltadka" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/xr0n4h1598873473.jpg" alt="Dal Tadka">
+    <h3>Dal Tadka</h3>
+    <p>Yellow lentils cooked to perfection and tempered with ghee, garlic, cumin, and red chili for rich flavor.</p>
+    <p><strong>Price:</strong> ₹199</p>
+  </div>
+</div>
+
+<!-- Popup: Fish Curry -->
+<div id="fishcurry" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg" alt="Fish Curry">
+    <h3>Fish Curry</h3>
+    <p>Fresh fish pieces simmered in a tangy coconut and tamarind gravy, infused with coastal Indian spices.</p>
+    <p><strong>Price:</strong> ₹329</p>
+  </div>
+</div>
+</section>
+
+
+<!--Desert Section Content-->
+    <div id="desserts">
+      <h2>Desserts</h2>
+      <div class="menu-grid">
+      <!-- Gulab Jamun -->
+<a href="#gulab-jamun" class="dish-card">
+  <img src="https://www.themealdb.com/images/media/meals/xqrwyr1511133646.jpg" alt="Gulab Jamun">
+  <div class="dish-info">
+    <strong>Gulab Jamun</strong>
+    <p>Soft fried dumplings soaked in syrup.</p>
+  </div>
+</a>
+
+<div id="gulab-jamun" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/xqrwyr1511133646.jpg" alt="Gulab Jamun">
+    <h3>Gulab Jamun</h3>
+    <p>Delicious soft fried dumplings made from khoya and soaked in warm sugar syrup.</p>
+    <p><strong>Price:</strong> ₹99</p>
+  </div>
+</div>
+
+<!-- Rasgulla -->
+<a href="#rasgulla" class="dish-card">
+  <img src="https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg" alt="Rasgulla">
+  <div class="dish-info">
+    <strong>Rasgulla</strong>
+    <p>Soft spongy balls made from cottage cheese in sugar syrup.</p>
+  </div>
+</a>
+
+<div id="rasgulla" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/tqtywx1468317395.jpg" alt="Rasgulla">
+    <h3>Rasgulla</h3>
+    <p>Soft, spongy, and juicy cottage cheese balls soaked in light sugar syrup.</p>
+    <p><strong>Price:</strong> ₹89</p>
+  </div>
+</div>
+
+<!-- Cheesecake -->
+<a href="#cheesecake" class="dish-card">
+  <img src="https://www.themealdb.com/images/media/meals/1550440197.jpg" alt="Cheesecake">
+  <div class="dish-info">
+    <strong>Cheesecake</strong>
+    <p>Classic creamy cheesecake with biscuit base.</p>
+  </div>
+</a>
+
+<div id="cheesecake" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/1550440197.jpg" alt="Cheesecake">
+    <h3>Cheesecake</h3>
+    <p>Rich and creamy cheesecake with a buttery biscuit crust and light vanilla flavor.</p>
+    <p><strong>Price:</strong> ₹149</p>
+  </div>
+</div>
+
+<!-- Ice Cream Sundae -->
+<a href="#icecream-sundae" class="dish-card">
+  <img src="https://www.themealdb.com/images/media/meals/xrrtss1511555269.jpg" alt="Ice Cream Sundae">
+  <div class="dish-info">
+    <strong>Ice Cream Sundae</strong>
+    <p>Scoops of ice cream topped with nuts & chocolate sauce.</p>
+  </div>
+</a>
+
+<div id="icecream-sundae" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/xrrtss1511555269.jpg" alt="Ice Cream Sundae">
+    <h3>Ice Cream Sundae</h3>
+    <p>Delicious scoops of ice cream layered with nuts, syrup, and whipped cream.</p>
+    <p><strong>Price:</strong> ₹129</p>
+  </div>
+</div>
+
+<!-- Fruit Salad -->
+<a href="#fruit-salad" class="dish-card">
+  <img src="https://www.themealdb.com/images/media/meals/ryppsv1511815505.jpg" alt="Fruit Salad">
+  <div class="dish-info">
+    <strong>Fruit Salad</strong>
+    <p>Fresh seasonal fruits served with honey drizzle.</p>
+  </div>
+</a>
+
+<div id="fruit-salad" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/ryppsv1511815505.jpg" alt="Fruit Salad">
+    <h3>Fruit Salad</h3>
+    <p>Refreshing mix of seasonal fruits drizzled with honey and a touch of lime.</p>
+    <p><strong>Price:</strong> ₹119</p>
+  </div>
+</div>
+
+<!-- Chocolate Mousse -->
+<a href="#chocolate-mousse" class="dish-card">
+  <img src="https://www.themealdb.com/images/media/meals/qrqywr1503066605.jpg" alt="Chocolate Mousse">
+  <div class="dish-info">
+    <strong>Chocolate Mousse</strong>
+    <p>Smooth and rich chocolate mousse with whipped cream.</p>
+  </div>
+</a>
+
+<div id="chocolate-mousse" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <img src="https://www.themealdb.com/images/media/meals/qrqywr1503066605.jpg" alt="Chocolate Mousse">
+    <h3>Chocolate Mousse</h3>
+    <p>Rich, velvety chocolate mousse topped with whipped cream for a perfect dessert experience.</p>
+    <p><strong>Price:</strong> ₹139</p>
+  </div>
+</div>
+</div>
+    </section>
+  </main>
+  </body>
+
+  <footer>
+    <p>&copy; 2025 Taste Haven Restaurant | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
