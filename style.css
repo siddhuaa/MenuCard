@@ -15,8 +15,8 @@ body {
 
 
 header {
-  background: #c62828;
-  color: white;
+  background: #115159;
+  color: #ea9c0c;
   padding: 1rem;
   text-align: center;
 }
@@ -32,11 +32,12 @@ header h1 {
   display: inline-block;
   margin-left: 10px;
   font-size: 2rem;
+  font-style: italic;
 }
 
  /* Special of the day */
     .special {
-      background: #fff3cd;
+      background: #d0ece8;
       padding: 1rem;
       border: 2px solid #ffeeba;
       border-radius: 8px;
@@ -50,7 +51,7 @@ header h1 {
 
 
 nav {
-  background: #b71c1c;
+  background: #115159;
   padding: 0.5rem;
   text-align: center;
 }
@@ -77,15 +78,15 @@ section {
 }
 
 h2 {
-  border-bottom: 2px solid #c62828;
+  border-bottom: 2px solid #115159;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
-  color: #c62828;
+  color: #115159;
 }
 
 
 footer {
-  background: #c62828;
+  background: #115159;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -183,7 +184,7 @@ footer {
   right: 12px;
   text-decoration: none;
   font-size: 24px;
-  color: #c0392b;
+  color: #115159;
 }
 
 .close:hover {
